@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "532718436163",
+    "firebase_url": "https://nap-and-ride.firebaseio.com",
+    "project_id": "nap-and-ride",
+    "storage_bucket": "nap-and-ride.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532718436163:android:fbe09e191f188403",
+        "android_client_info": {
+          "package_name": "com.launchathon.deanc.nap_and_ride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532718436163-ff27h3ns1l1u310dd8imh3215pv6rtke.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "532718436163-e1fr4rj71guduo7rfqem15kseqggd02o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2N1zJHJrBgTI9uGSMzWLOBDUtB1e_Kg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
