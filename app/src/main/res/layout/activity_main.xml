@@ -31,4 +31,10 @@
         android:layout_below="@+id/lon"
         android:hint="Enter Distance until Wake-Up" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:layout_below="@+id/wakeup_distance"/>
+
 </RelativeLayout>

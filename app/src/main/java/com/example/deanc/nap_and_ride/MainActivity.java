@@ -4,18 +4,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 public class MainActivity extends AppCompatActivity {
 
-    EditText lat, lon, wake_up;
+
+    @Bind(R.id.lat) EditText lat;
+    @Bind(R.id.lon) EditText lon;
+    @Bind(R.id.wakeup_distance) EditText wake_up;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        lat = (EditText) findViewById(R.id.lat);
-        lon = (EditText) findViewById(R.id.lon);
-        wake_up = (EditText) findViewById(R.id.wakeup_distance);
+        ButterKnife.bind(this);
+
+    }
+
+    @OnClick(R.id.submitButton)
+    public void setStop() {
 
     }
 }
