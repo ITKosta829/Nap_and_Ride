@@ -7,11 +7,16 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.2'
         classpath 'com.google.gms:google-services:3.0.0'
+        // classpath 'com.google.gms:google-services:3.0.0'
+        //classpath 'com.google.android.gms:9.0.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }
+
+//Error:Execution failed for task ':app:processDebugGoogleServices'.
+//        > Please fix the version conflict either by updating the version of the google-services plugin (information about the latest version is available at https://bintray.com/android/android-tools/com.google.gms.google-services/) or updating the version of com.google.android.gms to 9.0.0.
 
 allprojects {
     repositories {

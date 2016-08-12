@@ -13,28 +13,33 @@
         android:id="@+id/lat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:hint="Enter Destination Latitude" />
 
     <EditText
         android:id="@+id/lon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/lat"
+        android:layout_centerHorizontal="true"
         android:hint="Enter Destination Longitude" />
 
     <EditText
         android:id="@+id/wakeup_distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/lon"
+        android:layout_centerHorizontal="true"
         android:hint="Enter Distance until Wake-Up" />
 
     <Button
+        android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/submitButton"
-        android:layout_below="@+id/wakeup_distance"/>
+        android:layout_below="@+id/wakeup_distance"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+
+
 
 </RelativeLayout>
