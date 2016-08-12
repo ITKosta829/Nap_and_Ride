@@ -1,7 +1,7 @@
-package com.example.deanc.nap_and_ride;
+package com.launchathon.deanc.nap_and_ride;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 
 import butterknife.Bind;
@@ -15,10 +15,14 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.lon) EditText lon;
     @Bind(R.id.wakeup_distance) EditText wake_up;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         ButterKnife.bind(this);
 

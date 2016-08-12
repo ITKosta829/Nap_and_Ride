@@ -1,4 +1,4 @@
-package com.example.deanc.nap_and_ride;
+package com.launchathon.deanc.nap_and_ride;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

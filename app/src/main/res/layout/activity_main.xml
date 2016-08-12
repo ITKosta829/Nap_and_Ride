@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.deanc.nap_and_ride.MainActivity">
+    tools:context="com.launchathon.deanc.nap_and_ride.MainActivity">
 
     <EditText
         android:id="@+id/lat"
